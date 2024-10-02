@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.banniere {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+}
+
+.pull-container {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+}
+
+.pull-container > button {
+    width: 340px;
+    margin: 15px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.hidden {
+    display: none;
+}
